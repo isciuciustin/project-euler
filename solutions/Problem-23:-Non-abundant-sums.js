@@ -7,10 +7,10 @@ function sumOfNonAbundantNumbers(n) {
     let sum = 0;
     // Iterate through divisors excluding 1 and the number itself
     for (let i = 2; i <= Math.sqrt(num); i++) {
-      if (num % i === 0) {
+                if (num % i === 0) {
         sum += i;
         if (num / i !== i) {
-          sum += num / i;
+                  sum += num / i;
         }
       }
     }
