@@ -9,7 +9,5 @@
     "arrowParens": "always",
     "proseWrap": "always",
     "bracketSameLine": false,
-    "singleAttributePerLine": true,
-    "htmlWhitespaceSensitivity": "strict",
-    "plugins": ["prettier-plugin-tailwindcss"]
+    "singleAttributePerLine": true
 }
